@@ -79,4 +79,4 @@ function megaFrined(friends){
     }
     return bigFriend;
 }
-megaFrined(['Harry Potter', 'Ron Weasly', 'Tom Marvollo Riddle','Hermoine Granger']);
+megaFrined(['Harry Potter', 'Ron Weasley', 'Tom Marvollo Riddle','Hermoine Granger']);
