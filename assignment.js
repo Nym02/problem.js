@@ -79,5 +79,4 @@ function megaFrined(friends){
     }
     return bigFriend;
 }
-let t = megaFrined(['Harry Potter', 'Ron Weasley', 'Tom Marvollo Riddle','I am lord voldemort','Hermoine Granger']);
-console.log(t);
+megaFrined(['Harry Potter', 'Ron Weasley', 'Tom Marvollo Riddle','I am lord voldemort','Hermoine Granger']);
