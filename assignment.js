@@ -7,7 +7,7 @@
 function kilometerToMeter(kl){
     if(kl >= 0){
         let meter = kl * 1000;
-    return meter;
+        return meter;
     } else {
         return "Distance can not be negative";
     }
@@ -50,9 +50,9 @@ function hotelCost(days){
             if( i<= 10){
                 totalCost = totalCost + 100;
             } else if(i >= 11 && i <= 20){
-                totalCost += 50;
+                totalCost += 80;
             } else if(i > 20){
-                totalCost += 20;
+                totalCost += 50;
             }
         }
     } else {
@@ -60,7 +60,7 @@ function hotelCost(days){
     }
     return totalCost;
 }
-hotelCost(-21);
+hotelCost(21);
 
 // ============================================================================
 //                             Mega Friend
@@ -79,4 +79,5 @@ function megaFrined(friends){
     }
     return bigFriend;
 }
-megaFrined(['Harry Potter', 'Ron Weasley', 'Tom Marvollo Riddle','Hermoine Granger']);
+let t = megaFrined(['Harry Potter', 'Ron Weasley', 'Tom Marvollo Riddle','I am lord voldemort','Hermoine Granger']);
+console.log(t);
